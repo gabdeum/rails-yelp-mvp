@@ -1,5 +1,5 @@
 <div class="container mt-4">
-  <h1>All the restaurants <%= link_to new_restaurant_path do %><i class="fa-solid fa-plus"></i><% end %></h1>
+  <h1>All the restaurants <%= link_to new_restaurant_path do %>+<% end %></h1>
   <br>
   <ul>
     <% @restaurants.each do |restaurant| %>
